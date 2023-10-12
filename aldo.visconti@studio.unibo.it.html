@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contatti</title>
+    </head>
+    <body>
+        <h1>Contatti</h1>
+        <form action="">
+            <fieldset>
+                <legend><h2>Informazioni anagrafiche:</h2></legend>
+                <label>Nome:<input type="text" name="nome"/></label><br/>
+                <label for="">Cognome:<input type="text" name="cognome"/> </label><br/>
+                <label>Codice Fiscale:<input type="text" name=""codicefiscale/></label><br/>
+                <label for="">Data di Nascita:<input type="date" name="dataDiNascita" placeholder=""/></label><br/>
+                <label for="">Luogo di Nascita:<input type="text" name="luogoDiNascita"/></label> <br/>
+                <label for="">Indirizzo:<input type="text" name="indirizzo"/></label>
+            </fieldset>
+            <fieldset>
+                <legend><h2>Preferenze</h2></legend>
+                <label for="">Assicurazione:<br/><input type="radio" name="Assicurazione">Primo livello</label><br/>
+                <label for=""><input type="radio" name="Assicurazione">Secondo livello</label><br/>
+                <label for=""><input type="radio" name="Assicurazione">Terzo livello</label><br/>
+            </fieldset>
+            <fieldset>
+                <label for="">Mezzo preferito: <br/>
+                    <select name="Mezzo">
+                        <option value="">Moto</option>
+                        <option value="">Bicicletta</option>
+                        <option value="">Monopattino</option>
+                        <option value="">Automobile</option>
+                    </select>
+                </label>
+               
+            </fieldset>
+            <fieldset>
+                <label for=""> Automunito:<input type="checkbox" ></label>
+            </fieldset>
+            <fieldset>
+                <label for="">Descrizione: <br/>
+                   <textarea name="Descrizione" id="" cols="30" rows="10"></textarea>
+                </label>
+            </fieldset>
+            <ul>
+                <li> 
+                   <input type="submit" value="submit">       
+                </li>
+                <li>
+                   <input type="reset" value="reset">
+                </li>
+            </ul>
+        </form>
+        
+    </body>
+</html>
