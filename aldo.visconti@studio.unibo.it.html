@@ -22,44 +22,60 @@
             </fieldset>
             <fieldset>
                 <legend><h2>Preferenze</h2></legend>
-                <label>Assicurazione:
+                <label>Assicurazione:</label>
                     <br>
-                    <input type="radio" name="Assicurazione">Primo livello</label>
+                    <label for="primoLivello">
+                        <input type="radio" name="Assicurazione" id="primoLivello">Primo livello
+                    </label>
                     <br>
-                <label>
-                    <input type="radio" name="Assicurazione">Secondo livello</label>
-                    <br>
-                <label>
-                    <input type="radio" name="Assicurazione">Terzo livello</label>
+                <label for="secondoLivello">
+                    <input type="radio" name="Assicurazione" id="secondoLivello">Secondo livello
+                </label>
+                <br>
+                <label for="terzoLivello">
+                    <input type="radio" name="Assicurazione" id="terzoLivello">Terzo livello
+                </label>
                     <br>
             </fieldset>
             <fieldset>
-                <label>Mezzo preferito: 
+                <label>Mezzo preferito:</label>
+
                     <br>
-                    <select name="Mezzo">
-                        <option value="">Moto</option>
-                        <option value="">Bicicletta</option>
-                        <option value="">Monopattino</option>
-                        <option value="">Automobile</option>
+                <label for="Mezzo">
+                    <select name="Mezzo" id="Mezzo">
+                        <option value="moto">Moto</option>
+                        <option value="bici">Bicicletta</option>
+                        <option value="monopattino">Monopattino</option>
+                        <option value="auto">Automobile</option>
                     </select>
                 </label>
-               
             </fieldset>
+
             <fieldset>
-                <label> Automunito:<input type="checkbox" ></label>
+                <label for="Automunito"> Automunito:                         
+                    <input type="checkbox" id="Automunito">
+                </label>
+                    
+                    
             </fieldset>
+
             <fieldset>
-                <label>Descrizione: 
                     <br>
-                   <textarea name="Descrizione" cols="30" rows="10"></textarea>
+                <label for="Descrizione">Descrizione:
+                    <textarea name="Descrizione" cols="30" rows="10" id="Descrizione"></textarea>
                 </label>
             </fieldset>
+
             <ul>
-                <li> 
-                   <input type="submit" value="submit">       
+                <li>
+                    <label for="submit">Conferma:
+                        <input type="submit" value="submit" id="submit">
+                    </label>       
                 </li>
                 <li>
-                   <input type="reset" value="reset">
+                    <label for="reset" >Svuota campi:
+                        <input type="reset" value="reset" id="reset">
+                    </label>
                 </li>
             </ul>
         </form>
