@@ -1,0 +1,54 @@
+header {
+    width: 100%;
+    text-align: right;
+    background-image: linear-gradient(to bottom right, pink, yellow, pink, purple);
+    border-bottom: purple 4px solid;
+    height: 100px;
+    order: 1;
+    
+}
+header > h1 {
+    padding-top: 15px;
+    color: purple;
+}
+body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;  
+    justify-content: space-between;
+}
+
+
+body > nav {
+    background-image: linear-gradient(to bottom right, pink, yellow, pink, purple);
+    width: 15%;
+    order: 2;
+    margin-top: 10px;
+    border-bottom: purple 4px solid;
+    border-top: purple 4px solid;
+    text-align: left;
+    line-height: 2;
+    max-height: max-content;
+}
+body > section {
+    width: 50%;
+    order: 4;
+    margin-top: 10px;
+    text-align: left;
+    color: black;
+}
+body > aside {
+    width: 25%;
+    order: 3;
+    margin-top: 10px;
+    color: purple;
+}
+footer {
+    width: 100%;
+    background-image: linear-gradient(to bottom right, pink, yellow, pink, purple);
+    order: 5;
+    margin-top: 10px;
+    border-top: purple 4px solid;
+    color: purple;
+    text-align: center;
+}
