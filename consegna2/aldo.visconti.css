@@ -29,6 +29,19 @@ body > nav {
     text-align: left;
     line-height: 2;
     max-height: max-content;
+    font-family: monospace;
+    font-size: 100%;
+}
+
+body > nav:hover {
+    cursor: pointer;
+    background-image: linear-gradient(to bottom right, purple, pink, yellow, pink);
+}
+body > nav > ul > li > a:hover{
+    cursor: pointer;
+    color: white;
+    background-color: purple;
+    font-weight: bold;
 }
 body > section {
     width: 50%;
@@ -38,7 +51,7 @@ body > section {
     color: black;
 }
 body > aside {
-    width: 25%;
+    width: 20%;
     order: 3;
     margin-top: 10px;
     color: purple;
@@ -51,4 +64,5 @@ footer {
     border-top: purple 4px solid;
     color: purple;
     text-align: center;
+    text-size-adjust: 80%;
 }
